@@ -7,7 +7,7 @@ if (!dir.exists('Data')) {
 }
 
 # Downloads TCGA-BRCA expression data
-query.exp <- GDCquery(project = "TCGA-BRCA",
+query.exp <- GDCquery(project = "TCGA-LAML",
                       data.category = "Transcriptome Profiling",
                       data.type = "Gene Expression Quantification", 
                       workflow.type = "STAR - Counts")
